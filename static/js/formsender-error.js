@@ -1,3 +1,5 @@
+'use strict';
+
 // Get error number and message from query string
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
